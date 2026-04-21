@@ -1,6 +1,8 @@
 #include <stdio.h>
 
 //programa que procura se existe uma palavra na string
+//Também usa função para contar qualtas letras efetivamente existem
+//desconsiderando \0
 
 int contaLetras(char vetor[], int t){
     int contador=0;
